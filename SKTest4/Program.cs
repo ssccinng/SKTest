@@ -30,7 +30,7 @@ while (true)
     var result = chatCompletionService.GetChatMessageContentAsync(
         history,
         executionSettings: openAIPromptExecutionSettings,
-        kernel: kernel);
+        k-ernel: kernel);
     Console.WriteLine(result);
 
 }
