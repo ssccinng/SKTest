@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RC3Glm", "RC3Glm\RC3Glm.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101Glm", "101Glm\101Glm.csproj", "{B6162314-D1E2-4FFD-A504-55835E2D172B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SK.Common", "SK.Common\SK.Common.csproj", "{336B59E9-7518-47D2-94C1-D3568C3C79B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKTest5", "SKTest5\SKTest5.csproj", "{29BD7216-80E9-4393-BA0E-B46A2AB2AD8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{B6162314-D1E2-4FFD-A504-55835E2D172B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6162314-D1E2-4FFD-A504-55835E2D172B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6162314-D1E2-4FFD-A504-55835E2D172B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336B59E9-7518-47D2-94C1-D3568C3C79B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336B59E9-7518-47D2-94C1-D3568C3C79B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336B59E9-7518-47D2-94C1-D3568C3C79B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336B59E9-7518-47D2-94C1-D3568C3C79B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BD7216-80E9-4393-BA0E-B46A2AB2AD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BD7216-80E9-4393-BA0E-B46A2AB2AD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BD7216-80E9-4393-BA0E-B46A2AB2AD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BD7216-80E9-4393-BA0E-B46A2AB2AD8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

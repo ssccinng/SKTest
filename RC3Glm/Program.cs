@@ -68,12 +68,15 @@ public class LightPlugin
 
 public class ChatGlmClientHandler : HttpClientHandler
 {
-    protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {
         if (request.RequestUri.LocalPath == "/v1/chat/completions")
         {
             request.RequestUri = new Uri("http://localhost:8000/v1/chat/completions");
         }
-        return base.SendAsync(request, cancellationToken);
+        Console.WriteLine(await request.Content.ReadAsStringAsync());
+        var res = await base.SendAsync(request, cancellationToken);
+        await Console.Out.WriteLineAsync(await res.Content.ReadAsStringAsync());
+        return res;
     }
 }
